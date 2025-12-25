@@ -1,85 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manmeet Sidhu | Civil Engineering Student</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manmeet Sidhu | Civil Engineering Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #003060;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #004080;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #002040;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-
-<header>
+  <header>
     <h1>Manmeet Sidhu</h1>
-    <p>3rd Year Civil Engineering Student | University of British Columbia</p>
-</header>
-
-<nav>
+    <p>Civil Engineering Co-op Student</p>
+  </header>
+  <nav>
     <a href="#about">About</a>
-    <a href="#academics">Academics</a>
-    <a href="#activities">Activities</a>
-    <a href="#coop">Co-op</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Co-op</a>
+    <a href="#resume">Resume</a>
+    <a href="#hobbies">Hobbies</a>
     <a href="#contact">Contact</a>
-</nav>
+  </nav>
 
-<section id="about">
+  <section id="about">
     <h2>About Me</h2>
-    <p>
-        I am a third-year Civil Engineering student at the University of British Columbia with a strong interest in
-        structural design, construction, and applying classroom concepts to real-world engineering problems.
-        I enjoy working on practical projects, collaborating with professionals, and gaining hands-on experience
-        through labs, field work, and co-op opportunities.
-    </p>
-</section>
+    <div class="card">
+      <p>Hello! I’m a civil engineering co-op student passionate about structural design, CAD, and sustainable construction practices. I'm currently gaining real-world experience through co-op placements while applying my academic knowledge to practical engineering solutions.</p>
+    </div>
+  </section>
 
-<section id="academics">
-    <h2>Academics</h2>
-    <p>
-        My academic background focuses on core civil engineering topics including structural analysis,
-        geotechnical engineering, materials testing, and construction methods.
-        Through coursework and labs, I have developed a strong foundation in engineering theory
-        and its practical applications.
-    </p>
-    <ul>
-        <li>Structural Analysis & Design</li>
-        <li>Geotechnical Engineering</li>
-        <li>Construction Materials</li>
-        <li>Engineering Labs & Technical Reports</li>
-    </ul>
-</section>
+  <section id="projects">
+    <h2>Academic Projects</h2>
+    <div class="card">
+      <h3>...</h3>
+      <p>...</p>
+    </div>
+    <!-- Add more projects here -->
+  </section>
 
-<section id="activities">
-    <h2>Activities</h2>
-    <p>
-        I am actively involved in student engineering organizations, networking events, and technical workshops.
-        These experiences allow me to connect with industry professionals and gain insight into engineering practice
-        and work culture.
-    </p>
-</section>
+  <section id="experience">
+    <h2>Co-op Experience</h2>
+    <div class="card">
+      <h3>...</h3>
+      <p>...</p>
+    </div>
+    <!-- Add more co-op terms here -->
+  </section>
 
-<section id="coop">
-    <h2>Co-op & Experience</h2>
-    <p>
-        I have gained industry experience working under the supervision of Professional Engineers and EITs
-        in geotechnical, materials, and environmental engineering.
-        My responsibilities included assisting with field testing, lab work,
-        and preparing technical memos and reports.
-    </p>
-    <ul>
-        <li>Geotechnical investigations</li>
-        <li>Materials testing and analysis</li>
-        <li>Technical report writing</li>
-        <li>Field and laboratory work</li>
-    </ul>
-</section>
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="card">
+      <p><a href="resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
+    </div>
+  </section>
 
-<section id="contact">
+  <section id="hobbies">
+    <h2>Hobbies & Interests</h2>
+    <div class="card">
+      <p>Outside of engineering, I enjoy hiking, photography, and exploring local architecture. I’m also interested in sustainable urban development and creative writing.</p>
+    </div>
+  </section>
+
+  <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:manmeetsidhu755@gmail.com">manmeetsidhu755@gmail.com</a></p>
-</section>
+    <div class="card">
+      <p>Email: <a href="mailto:manmeet@example.com">manmeet@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+    </div>
+  </section>
 
-<footer>
-    <p>© 2025 Manmeet Sidhu</p>
-</footer>
-
+  <footer>
+    <p>&copy; 2025 Manmeet Sidhu</p>
+  </footer>
 </body>
 </html>
